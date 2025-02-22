@@ -12,12 +12,12 @@ body {
 }
 
 .top {
+  position: fixed;
+  top: 0;
   width: 100%;
-  max-width: 10000px;
   padding: 20px;
   background-color: #8B0000;
   color: #DAA520;
-  border-radius: 30px;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px; /* Space below the title */
@@ -31,7 +31,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   text-align: center;
-  margin-top: 200px; /* Add space between title and quiz part */
+  margin-top: 75px; /* Add space between title and quiz part */
 }
 
 h1 {
