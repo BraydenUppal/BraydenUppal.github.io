@@ -6,12 +6,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; /* To center the entire page vertically */
+  flex-direction: column; /* Stack content vertically */
   height: 100vh; /* Make the body take full viewport height */
   margin: 0; /* Remove default margin */
 }
 
 .title {
-  width: 100%;
+  width: 90%;  /* Ensures it's responsive */
+  max-width: 1000px;  /* Keeps it within a reasonable size */
   padding: 20px;
   background-color: #8B0000;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -21,16 +23,19 @@ body {
 }
 
 .container {
-  width: 450px;
+  width: 90%;  /* Ensures it's responsive */
+  max-width: 450px;  /* Keeps it within a reasonable size */
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  text-align: center; /* Center the text inside container */
 }
 
 h1 {
   text-align: center;
   font-size: 36px; /* Adjust font size */
+  margin: 0;
 }
 
 .question {
