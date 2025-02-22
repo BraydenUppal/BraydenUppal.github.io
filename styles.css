@@ -5,32 +5,32 @@ body {
   background: #b9b3a9;
   display: flex;
   justify-content: center;
-  align-items: center; /* To center the entire page vertically */
-  flex-direction: column; /* Stack content vertically */
-  height: 100vh; /* Make the body take full viewport height */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack elements vertically */
+  height: 100vh;
   margin: 0; /* Remove default margin */
 }
 
 .title {
-  width: 90%;  /* Ensures it's responsive */
-  max-width: 1000px;  /* Keeps it within a reasonable size */
+  width: 90%;
+  max-width: 1000px;
   padding: 20px;
   background-color: #8B0000;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
-  text-align: center; /* Center the text inside title */
-  margin-bottom: 30px; /* Add space between title and content */
+  text-align: center;
+  margin-bottom: 30px; /* Space below the title */
 }
 
 .container {
-  width: 90%;  /* Ensures it's responsive */
-  max-width: 450px;  /* Keeps it within a reasonable size */
+  width: 90%;
+  max-width: 450px;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  text-align: center; /* Center the text inside container */
-  margin-top: 500px;
+  text-align: center;
+  margin-top: 50px; /* Add space between title and quiz part */
 }
 
 h1 {
