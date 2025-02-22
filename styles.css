@@ -7,6 +7,15 @@ body {
   justify-content: center;
 }
 
+.title {
+  width: 1000px;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #8B0000;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
 .container {
   width: 450px;
   padding: 20px;
