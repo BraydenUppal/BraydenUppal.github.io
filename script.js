@@ -113,7 +113,7 @@ const quizData = [
       } else {
         displayResult();
       }
-    }, 1500); // Delay of 2 seconds before moving to the next question
+    }, 1000); // Delay of 2 seconds before moving to the next question
   }
 }
 
