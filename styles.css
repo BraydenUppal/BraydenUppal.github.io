@@ -16,12 +16,11 @@ body {
   max-width: 10000px;
   padding: 20px;
   background-color: #8B0000;
-  color: #fd700;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  color: #DAA520;
   border-radius: 30px;
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 30px; /* Space below the title */
+  margin-bottom: 0px; /* Space below the title */
 }
 
 .container {
@@ -37,7 +36,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 36px; /* Adjust font size */
+  font-size: 340px; /* Adjust font size */
   margin: 0;
 }
 
