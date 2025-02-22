@@ -16,7 +16,7 @@ body {
   max-width: 10000px;
   padding: 20px;
   background-color: #8B0000;
-  font-color: #fd700;
+  color: #fd700;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   text-align: center;
