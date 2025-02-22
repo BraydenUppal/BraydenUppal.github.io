@@ -32,7 +32,7 @@ const quizData = [
   let currentQuestion = 0;
   let score = 0;
   let incorrectAnswers = [];
-  
+  shuffleArray(quizData);
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -41,9 +41,7 @@ const quizData = [
   }
   
   function displayQuestion() {
-    if (currentQuestion === 0) {
-        shuffleArray(quizData); 
-  }
+
     const questionData = quizData[currentQuestion];
   
     const questionElement = document.createElement('div');
@@ -135,6 +133,7 @@ const quizData = [
     retryButton.style.display = 'none';
     showAnswerButton.style.display = 'none';
     resultContainer.innerHTML = '';
+    shuffleArray(quizData);
     displayQuestion();
   }
   
