@@ -11,7 +11,7 @@ body {
   margin: 0; /* Remove default margin */
 }
 
-.title {
+.top {
   width: 100%;
   max-width: 10000px;
   padding: 20px;
