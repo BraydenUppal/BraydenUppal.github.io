@@ -12,19 +12,23 @@ body {
   font-size: 60px;
   margin-top: 100px;  /* Adjust as necessary */
 }
-
+.title {
+  width: 1000px;
+  padding: 20px;
+  margin-top: 80px;  /* Space above the title */
+  margin-bottom: 40px;  /* Add some space below the title to separate it from the quiz */
+  background-color: #8B0000;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
 
 .container {
   width: 450px;
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 20px;  /* Ensure some margin from the top */
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-}
-
-h1 {
-  text-align: center;
 }
 
 .question {
