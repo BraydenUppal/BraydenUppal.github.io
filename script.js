@@ -1,10 +1,27 @@
 const quizData = [
-    {
-      question: 'Adrian Garica',
-      options: ['MECH', 'ECEN', 'CSEN', 'CENG'],
-      answer: 'MECH',
-    },  
+  { question: 'Adrian Garcia', options: ['MECH', 'CSEN', 'BIOE', 'CENG'], answer: 'MECH' },
+  { question: 'Andrea Liwanag', options: ['COEN', 'ECEN', 'GEN', 'CSCI'], answer: 'COEN' },
+  { question: 'Armando Fernandez', options: ['CENG', 'ELEN', 'WDE', 'MECH'], answer: 'CENG' },
+  { question: 'Jonah Chum', options: ['CENG', 'CSEN', 'BIOE', 'ELEN'], answer: 'CENG' },
+  { question: 'Diana Huang', options: ['CSEN', 'COEN', 'ECEN', 'WDE'], answer: 'CSEN' },
+  { question: 'Samia Ahmer', options: ['CSEN', 'CENG', 'BIOE', 'CSCI'], answer: 'CSEN' },
+  { question: 'Mahi Shah', options: ['CENG', 'GEN', 'ECEN', 'ELEN'], answer: 'CENG' },
+  { question: 'Shea Denvey', options: ['BIOE', 'CSCI', 'CENG', 'WDE'], answer: 'BIOE' },
+  { question: 'Angelina Vigilante', options: ['CSCI', 'MECH', 'ELEN', 'CSEN'], answer: 'CSCI' },
+  { question: 'Madison Geligose', options: ['MECH', 'COEN', 'WDE', 'ECEN'], answer: 'MECH' },
+  { question: 'Lindsey Yoo', options: ['GEN', 'BIOE', 'CENG', 'CSCI'], answer: 'GEN' },
+  { question: 'Ben Everitt', options: ['MECH', 'ELEN', 'CSEN', 'BIOE'], answer: 'MECH' },
+  { question: 'Ben Hmura', options: ['CENG', 'COEN', 'WDE', 'CSCI'], answer: 'CENG' },
+  { question: 'Sophie Saur', options: ['BIOE', 'ECEN', 'MECH', 'GEN'], answer: 'BIOE' },
+  { question: 'Josh Kwan', options: ['MECH', 'CENG', 'WDE', 'CSEN'], answer: 'MECH' },
+  { question: 'Aravind Viswanathan', options: ['COEN', 'CSEN', 'BIOE', 'ECEN'], answer: 'COEN' },
+  { question: 'Justin Encarnation', options: ['CSEN', 'CSCI', 'CENG', 'MECH'], answer: 'CSEN' },
+  { question: 'Ryan Lin', options: ['MECH', 'GEN', 'BIOE', 'ELEN'], answer: 'MECH' },
+  { question: 'Brayden Uppal', options: ['CSEN', 'WDE', 'BIOE', 'ELEN'], answer: 'CSEN' },
+  { question: 'Frank Tittiger', options: ['COEN', 'CSEN', 'CENG', 'BIOE'], answer: 'COEN' },
+  { question: 'Lucas Monge', options: ['MECH', 'COEN', 'ECEN', 'GEN'], answer: 'MECH' }
 ];
+
   
   const quizContainer = document.getElementById('quiz');
   const resultContainer = document.getElementById('result');
@@ -24,6 +41,9 @@ const quizData = [
   }
   
   function displayQuestion() {
+    if (currentQuestion === 0) {
+        shuffleArray(quizData); 
+  }
     const questionData = quizData[currentQuestion];
   
     const questionElement = document.createElement('div');
