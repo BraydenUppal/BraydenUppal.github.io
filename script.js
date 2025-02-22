@@ -118,27 +118,45 @@ const quizData = [
   }
   
   function checkAnswer() {
-    const selectedOption = document.querySelector('input[name="quiz"]:checked');
-    if (selectedOption) {
-      const answer = selectedOption.value;
-      if (answer === quizData[currentQuestion].answer) {
-        score++;
-      } else {
-        incorrectAnswers.push({
-          question: quizData[currentQuestion].question,
-          incorrectAnswer: answer,
-          correctAnswer: quizData[currentQuestion].answer,
-        });
-      }
+  const selectedOption = document.querySelector('input[name="quiz"]:checked');
+  const feedbackContainer = document.createElement('div');
+  feedbackContainer.className = 'feedback';
+
+  if (selectedOption) {
+    const answer = selectedOption.value;
+    const correctAnswer = quizData[currentQuestion].answer;
+    
+    // Check if the selected answer is correct
+    if (answer === correctAnswer) {
+      score++;
+      feedbackContainer.innerHTML = `<p style="color: green;">Correct!</p>`;
+    } else {
+      // Incorrect answer
+      incorrectAnswers.push({
+        question: quizData[currentQuestion].question,
+        incorrectAnswer: answer,
+        correctAnswer: correctAnswer,
+      });
+      feedbackContainer.innerHTML = `<p style="color: red;">Wrong! The correct answer is: ${correctAnswer}</p>`;
+    }
+    
+    // Add feedback to the quiz container
+    quizContainer.appendChild(feedbackContainer);
+
+    // Move to next question after a short delay
+    setTimeout(() => {
       currentQuestion++;
       selectedOption.checked = false;
       if (currentQuestion < quizData.length) {
         displayQuestion();
+        feedbackContainer.remove(); // Remove feedback after the next question loads
       } else {
         displayResult();
       }
-    }
+    }, 2000); // Delay of 2 seconds before moving to the next question
   }
+}
+
   
   function displayResult() {
     quizContainer.style.display = 'none';
