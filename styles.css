@@ -3,10 +3,12 @@
 html, body {
   width: 100%;
   overflow-x: hidden; /* Prevents horizontal scrolling */
-  overflow-y: auto;
 
 }
-
+.top, .people1, .credits {
+  max-width: 100%;
+  overflow-y: hidden; /* Prevents child overflow */
+}
 body {
   padding-top: 80px;
   font-family: 'Poppins', sans-serif;
