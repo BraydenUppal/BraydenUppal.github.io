@@ -6,6 +6,7 @@ body {
   justify-content: center;
   display: flex;
   align-items: center; /* Center vertically */
+  justify-content: flex-start;
   flex-direction: column; /* Stack elements vertically */
   height: 100vh;
   margin: 0; /* Remove default margin */
