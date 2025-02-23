@@ -43,6 +43,18 @@ body {
   gap: 50px;
 }
 
+.credits {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #DAA520;
+  flex-direction: row; 
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
 .box {
   padding: 10px;
   display: flex;
