@@ -29,14 +29,16 @@ body {
   display: flex;
   position: relative;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
   background-color: #F0F8FF;
   flex-direction: row; //elements horizontal
 }
 
 .box {
   display: flex;
+  boarder-style: outset;
   flex-direction: column;
+  background-color: #5F9E80;
   color: #DAA520;
   text-align: center;
   
