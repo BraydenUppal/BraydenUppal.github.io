@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #b9b3a9;
+  background: #DAA520;
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: flex-start;
@@ -53,7 +53,7 @@ body {
   width: 90%;;
   max-width: 450px;
   padding: 20px;
-  background-color: #DAA520;
+  background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   text-align: center;
