@@ -38,11 +38,12 @@ body {
   padding: 100px;
   display: flex;
   border-style: outset;
-  border-width: 30;
+  border-width: 10px;
   flex-direction: column;
-  background-color: #5F9E80;
-  color: #DAA520;
+  background-color: #ff9999;
+  color: #000000;
   text-align: center;
+  text-size: 40px;
   
 }
 
