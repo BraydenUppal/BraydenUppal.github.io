@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body {
+  padding-top:80px;
   font-family: 'Poppins', sans-serif;
   background: #DAA520;
   display: flex;
@@ -33,7 +34,6 @@ body {
 
 
 .people1 {
-  margin-top: 80px;
   display: flex;
   position: relative;
   width: 100%;
