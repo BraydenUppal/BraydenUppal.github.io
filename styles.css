@@ -26,17 +26,20 @@ body {
 
 
 .people1 {
+  display: flex;
   position: relative;
   width: 100%;
   padding: 20px;
   background-color: #F0F8FF;
-  fled-direction: row; //elements horizontal
+  flex-direction: row; //elements horizontal
 }
 
-.Samnia {
-  
+.box {
+  display: flex;
+  flex-direction: column;
   color: #DAA520;
   text-align: center;
+  
 }
 
 .container {
