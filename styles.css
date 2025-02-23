@@ -4,6 +4,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background: #b9b3a9;
   justify-content: center;
+  display: flex;
   align-items: center; /* Center vertically */
   flex-direction: column; /* Stack elements vertically */
   height: 100vh;
