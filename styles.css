@@ -3,7 +3,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #b9b3a9;
-  display: flex;
   justify-content: center;
   align-items: center; /* Center vertically */
   flex-direction: column; /* Stack elements vertically */
