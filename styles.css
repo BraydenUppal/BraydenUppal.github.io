@@ -12,8 +12,8 @@ body {
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover; /* Fills the container, may crop the image */
 }
 .top {
@@ -47,7 +47,7 @@ img {
   border-style: outset;
   border-width: 10px;
   width: 300px;
-  height: 400px;
+  height: 300px;
   flex-direction: column;
   background-color: #ffffff;
   color: #000000;
