@@ -29,14 +29,16 @@ body {
   position: relative;
   width: 100%;
   padding: 30px;
-  background-color: #F0F8FF;
+  background-color: #ffffff;
   flex-direction: row; 
+  align-items: center;
 }
 
 .box {
-  padding: 30px;
+  padding: 100px;
   display: flex;
   border-style: outset;
+  border-width: 30;
   flex-direction: column;
   background-color: #5F9E80;
   color: #DAA520;
