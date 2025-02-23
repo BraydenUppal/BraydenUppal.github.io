@@ -12,6 +12,7 @@ body {
   flex-direction: column; /* Stack elements vertically */
   height: 100vh;
   margin: 0; /* Remove default margin */
+  overflow-x: hidden;
 }
 
 .img1 {
