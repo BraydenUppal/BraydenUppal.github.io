@@ -33,6 +33,7 @@ body {
 
 
 .people1 {
+  margin-top: 80px;
   display: flex;
   position: relative;
   width: 100%;
