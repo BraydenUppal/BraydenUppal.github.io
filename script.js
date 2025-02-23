@@ -1,25 +1,25 @@
 const quizData = [
   { question: 'Adrian Garcia', options: ['MECH', 'CSEN', 'BIOE', 'CENG'], answer: 'MECH' },
-  { question: 'Andrea Liwanag', options: ['COEN', 'ECEN', 'GEN', 'CSCI'], answer: 'COEN' },
+  { question: 'Andrea Liwanag', options: ['CSEN', 'ECEN', 'GEN', 'CSCI'], answer: 'CSEN' },
   { question: 'Armando Fernandez', options: ['CENG', 'ELEN', 'WDE', 'MECH'], answer: 'CENG' },
   { question: 'Jonah Chun', options: ['CENG', 'CSEN', 'BIOE', 'ELEN'], answer: 'CENG' },
-  { question: 'Diana Huang', options: ['CSEN', 'COEN', 'ECEN', 'WDE'], answer: 'CSEN' },
+  { question: 'Diana Huang', options: ['CSEN', 'CSCI', 'ECEN', 'WDE'], answer: 'CSEN' },
   { question: 'Samia Ahmer', options: ['CSEN', 'CENG', 'BIOE', 'CSCI'], answer: 'CSEN' },
   { question: 'Mahi Shah', options: ['CENG', 'GEN', 'ECEN', 'ELEN'], answer: 'CENG' },
   { question: 'Shea Denvey', options: ['BIOE', 'CSCI', 'CENG', 'WDE'], answer: 'BIOE' },
   { question: 'Angelina Vigilante', options: ['CSCI', 'MECH', 'ELEN', 'CSEN'], answer: 'CSCI' },
-  { question: 'Madison Gallegos', options: ['MECH', 'COEN', 'WDE', 'ECEN'], answer: 'MECH' },
+  { question: 'Madison Gallegos', options: ['MECH', 'CSEN', 'WDE', 'ECEN'], answer: 'MECH' },
   { question: 'Lindsay Yoo', options: ['GEN', 'BIOE', 'CENG', 'CSCI'], answer: 'GEN' },
   { question: 'Ben Everitt', options: ['MECH', 'ELEN', 'CSEN', 'BIOE'], answer: 'MECH' },
-  { question: 'Ben Hmura', options: ['CENG', 'COEN', 'WDE', 'CSCI'], answer: 'CENG' },
+  { question: 'Ben Hmura', options: ['CENG', 'CSEN', 'WDE', 'CSCI'], answer: 'CENG' },
   { question: 'Sophie Saur', options: ['BIOE', 'ECEN', 'MECH', 'GEN'], answer: 'BIOE' },
   { question: 'Josh Kwan', options: ['MECH', 'CENG', 'WDE', 'CSEN'], answer: 'MECH' },
-  { question: 'Aravind Viswanathan', options: ['COEN', 'CSEN', 'BIOE', 'ECEN'], answer: 'COEN' },
+  { question: 'Aravind Viswanathan', options: ['CSCI', 'CSEN', 'BIOE', 'ECEN'], answer: 'CSEN' },
   { question: 'Justin Encarnation', options: ['CSEN', 'CSCI', 'CENG', 'MECH'], answer: 'CSEN' },
   { question: 'Ryan Lin', options: ['MECH', 'GEN', 'BIOE', 'ELEN'], answer: 'MECH' },
   { question: 'Brayden Uppal', options: ['CSEN', 'WDE', 'BIOE', 'ELEN'], answer: 'CSEN' },
-  { question: 'Frank Tittiger', options: ['COEN', 'CSEN', 'CENG', 'BIOE'], answer: 'COEN' },
-  { question: 'Lucas Monge', options: ['MECH', 'COEN', 'ECEN', 'GEN'], answer: 'MECH' }
+  { question: 'Frank Tittiger', options: ['CSCI', 'CSEN', 'CENG', 'BIOE'], answer: 'CSCI' },
+  { question: 'Lucas Monge', options: ['MECH', 'CENG', 'ECEN', 'GEN'], answer: 'MECH' }
 ];
 
   
