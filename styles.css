@@ -45,6 +45,7 @@ body {
 
 .people1 {
   display: flex;
+  flex-wrap: flex;
   position: relative;
   width: 100%;
   padding: 10px 10px;
