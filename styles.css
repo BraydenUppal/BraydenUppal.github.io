@@ -3,7 +3,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #b9b3a9;
-  justify-content: center;
   display: flex;
   align-items: center; /* Center vertically */
   justify-content: flex-start;
@@ -31,12 +30,13 @@ body {
   width: 100%;
   padding: 30px;
   background-color: #F0F8FF;
-  flex-direction: row; //elements horizontal
+  flex-direction: row; 
 }
 
 .box {
+  padding: 30px;
   display: flex;
-  boarder-style: outset;
+  border-style: outset;
   flex-direction: column;
   background-color: #5F9E80;
   color: #DAA520;
