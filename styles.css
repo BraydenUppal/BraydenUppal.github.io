@@ -31,7 +31,7 @@ body {
   padding: 30px;
   background-color: #ffffff;
   flex-direction: row; 
-  align-items: center;
+  justify-content: center;
 }
 
 .box {
