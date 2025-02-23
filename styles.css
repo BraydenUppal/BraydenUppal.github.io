@@ -43,7 +43,6 @@ body {
 
 .people1 {
   display: flex;
-  felx-wrap: wrap;
   position: relative;
   width: 100%;
   padding: 10px 10px;
