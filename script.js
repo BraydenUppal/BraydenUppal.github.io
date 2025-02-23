@@ -9,7 +9,7 @@ const quizData = [
   { question: 'Shea Denvey', options: ['BIOE', 'CSCI', 'CENG', 'WDE'], answer: 'BIOE' },
   { question: 'Angelina Vigilante', options: ['CSCI', 'MECH', 'ELEN', 'CSEN'], answer: 'CSCI' },
   { question: 'Madison Geligose', options: ['MECH', 'COEN', 'WDE', 'ECEN'], answer: 'MECH' },
-  { question: 'Lindsey Yoo', options: ['GEN', 'BIOE', 'CENG', 'CSCI'], answer: 'GEN' },
+  { question: 'Lindsay Yoo', options: ['GEN', 'BIOE', 'CENG', 'CSCI'], answer: 'GEN' },
   { question: 'Ben Everitt', options: ['MECH', 'ELEN', 'CSEN', 'BIOE'], answer: 'MECH' },
   { question: 'Ben Hmura', options: ['CENG', 'COEN', 'WDE', 'CSCI'], answer: 'CENG' },
   { question: 'Sophie Saur', options: ['BIOE', 'ECEN', 'MECH', 'GEN'], answer: 'BIOE' },
