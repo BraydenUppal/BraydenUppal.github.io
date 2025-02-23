@@ -21,6 +21,7 @@ body {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px; /* Space below the title */
+  gap: 50px:
 }
 
 
@@ -43,7 +44,7 @@ body {
   background-color: #ff9999;
   color: #000000;
   text-align: center;
-  text-size: 40px;
+  font-size: 40px;
   
 }
 
