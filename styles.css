@@ -72,10 +72,16 @@ body {
 .h {
   margin-bottom: 5px;
 }
-
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+}
+  
+  
 h1 {
   text-align: center;
-  font-size: 40px; /* Adjust font size */
+  font-size: 50px; /* Adjust font size */
   margin: 0;
 }
 
