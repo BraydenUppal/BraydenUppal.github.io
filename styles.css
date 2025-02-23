@@ -3,6 +3,8 @@
 html, body {
   width: 100%;
   overflow-x: hidden; /* Prevents horizontal scrolling */
+  overflow-y: hidden;
+
 }
 
 body {
