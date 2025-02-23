@@ -24,6 +24,7 @@ body {
 
 .container {
   width: 90%;
+  margin-left: 100px;
   max-width: 450px;
   padding: 20px;
   background-color: #fff;
