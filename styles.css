@@ -11,6 +11,11 @@ body {
   margin: 0; /* Remove default margin */
 }
 
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Fills the container, may crop the image */
+}
 .top {
   position: relative;
   top: 0;
