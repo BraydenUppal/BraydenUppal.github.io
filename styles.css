@@ -30,9 +30,11 @@ body {
   width: 100%;
   padding: 20px;
   background-color: #F0F8FF;
+  fled-direction: row; //elements horizontal
 }
 
 .Samnia {
+  
   color: #DAA520;
   text-align: center;
 }
