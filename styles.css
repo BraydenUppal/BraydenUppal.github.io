@@ -24,6 +24,19 @@ body {
   margin-bottom: 0px; /* Space below the title */
 }
 
+
+.people1 {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background-color: #F0F8FF;
+}
+
+.Samnia {
+  color: #DAA520;
+  text-align: center;
+}
+
 .container {
   width: 90%;;
   max-width: 450px;
